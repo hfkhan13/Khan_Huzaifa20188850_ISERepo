@@ -1,9 +1,13 @@
 '''
 
-METHOD: convert_to_upper and convert_to_lower
-IMPORT: a string parsed into the module
-EXPORT: a string that has been converted into all upper cases and into all lower cases
-ASSERTION: converts a string to one that has been converted into all upper case letters and lower cases
+NAME: Upper and Lowercase Module
+METHOD A: convert_to_upper 
+METHOD B: convert_to_lower
+INPUT: a string is parsed into the module
+OUTPUT A: a string that has been converted into all upper cases 
+OUTPUT B: a string that has been converted into all lower cases
+ASSERTION A: converts a string to one that has been converted into all upper case letters
+ASSERTION B: converts a string to one that has been converted into all lower cases letters
 
 '''
 
@@ -21,10 +25,12 @@ print(convert_to_lower("I Am Huzaifa"))  #test category 1a
 
 '''
 
+NAME: Numeric Value Module
 METHOD: contains_numeric
-IMPORT: a string parsed into the module
-EXPORT: a string that checks whether it contains a numeric or not
-ASSERTION: converts a string to indicate whether there are numeric values or not
+INPUT: a string is parsed into the module
+OUTPUT: a string that checks whether it contains a numeric or not
+ASSERTION A: converts a string to indicate that there are numeric values present
+ASSERTION B: converts a string to indicate that there are no numeric values present
 
 '''
 
@@ -43,10 +49,12 @@ contains_numeric("I am twenty years old") #test category 1b
 
 '''
 
+NAME: Valid Number Module
 METHOD: valid_number_checker
-IMPORT: a string parsed into the module
-EXPORT: a string that checks whether it contains a valid number or an invalid number
-ASSERTION: converts a string to indicate whether there is a valid number in it or an invalid number
+INPUT: a string is parsed into the module
+OUTPUT: a string that checks whether it contains a valid number or an invalid number
+ASSERTION A: converts a string to indicate a valid number 
+ASSERTION B: converts a string to indicate an invalid number
 
 '''
 
@@ -61,10 +69,14 @@ valid_number_checker("2670") #  test category 1 c)
 
 '''
 
-METHOD: remove_number_upper and remove_number_lower
-IMPORT: a string parsed into the module
-EXPORT: a string that removes a number and has been converted into all upper cases and lower cases
-ASSERTION: converts a string to one that has been converted into all upper case letters and lower cases with no numbers
+NAME: Numeric Upper and Lower Module
+METHOD A: remove_number_upper
+METHOD B: remove_number_lower
+INPUT: a string parsed into the module
+OUTPUT A: a string that removes a number and has been converted into all upper cases
+OUTPUT B: a string that removes a number and has been converted into all lower cases
+ASSERTION A: converts a string to one that has been converted into all upper case letters with no numbers
+ASSERTION B: converts a string to one that has been converted into all lower case letters with no numbers
 
 '''
 def remove_number_upper(string):
@@ -82,12 +94,14 @@ print(remove_number_lower("I am a 20 twenty year old"))#  test category 1 d)
 
 '''
 
+NAME: Time Changing Module
 METHOD A: hours_to_minutes and minutes_to_hours
 METHOD B: minutes_to_seconds and seconds_to_minutes
-IMPORT: a string parsed into the module
-EXPORT A: a string that has been converted from hours to minutes and minutes to hours
-EXPORT B:  a string that has been converted from minutes to seconds and seconds to minutes
-ASSERTION: converts a string to one that has been converted from hours to minutes and vice versa, and minutes to seconds and vice versa
+INPUT: a string parsed into the module
+OUTPUT A: a string that has been converted from hours to minutes and minutes to hours
+OUTPUT B:  a string that has been converted from minutes to seconds and seconds to minutes
+ASSERTION A: converts a string to one that has been converted from hours to minutes and vice versa
+ASSERTION B: converts a string to one that has been converted from minutes to seconds and vice versa
 
 '''
 def hours_to_minutes(hours):
