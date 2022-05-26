@@ -90,7 +90,7 @@ def remove_number_lower(string):
 print(remove_number_upper("I am a 20 twenty years old"))#  test category 1 d)
 
 
-print(remove_number_lower("I am a 20 twenty year old"))#  test category 1 d)
+print(remove_number_lower("I am a 20 twenty years old"))#  test category 1 d)
 
 '''
 
