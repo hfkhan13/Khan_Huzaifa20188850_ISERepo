@@ -123,3 +123,5 @@ def seconds_to_minutes(seconds):
     minutes= seconds/60
     return minutes
 print("60 seconds is " + str(seconds_to_minutes(60)) + " minutes")#  test category 2 c)
+
+#test log
