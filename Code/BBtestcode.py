@@ -26,13 +26,25 @@ print("Output: ", end="")
 contains_numeric("Pirates of the Caribbean")
 print("\n")
 
-valid_number_checker("2p67hello")#  test category 1 c)
-valid_number_checker("2670") #  test category 1 c)
+# Module 3 Category 1c)
+print("Testing Category 1c) Checking if string is a valid number:\n")
+print("Test Data Input: 2p67hello")
+print("Output: ", end="")
+valid_number_checker("2p67hello")
+print("\n")
+
+# Test Category 1c
+print("Testing Category 1c) Checking if string is a valid number:\n")
+print("Test Data Input: 8850")
+print("Output: ", end="")
+valid_number_checker("8850") 
+print("\n")
 
 
 print(remove_number_upper("I am 20 twenty years old"))#  test category 1 d)
 
 print(remove_number_lower("I am 20 twenty years old"))#  test category 1 d)
+
 
 print("60 hours is " + str(hours_to_minutes(60)) + " minutes")#  test category 2 c)
 
