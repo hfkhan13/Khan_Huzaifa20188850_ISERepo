@@ -172,6 +172,42 @@ The two modules that white box testing will be implemented on are Module 2 (Cate
 This method of approach was used to test two of the modules in the program, both of which containing if and else statements, which means that either the outcome is “true” or “false”. This is because there are only two outcomes for the code to produce, and white box testing tests all the possible paths in the production. Since there were a only two paths to be take, a table was instructed for each module, indicating the path and what the expected result of the path should be when the test data is run through it. This makes implementing the test code less complicated and ensures efficiency and less errors to occur while coding.
 
 ## **Test Implementation and Execution:**
+
+### **Module 1 (Category 1a):**
+#### BB Test Design: Implemented	
+#### WB Test Design: Implemented	
+#### EP Test Code: Implemented	
+#### BVA Test Code: N/A	
+#### WB Testing: Implemented
+
+### **Module 2 (Category 1b):**
+#### BB Test Design: Implemented	
+#### WB Test Design: Implemented	
+#### EP Test Code: Implemented	
+#### BVA Test Code: N/A	
+#### WB Testing: Implemented
+
+### **Module 3 (Category 1c):**
+#### BB Test Design: Implemented	
+#### WB Test Design: Implemented	
+#### EP Test Code: Implemented	
+#### BVA Test Code: N/A	
+#### WB Testing: Implemented
+
+### **Module 4 (Category 1d):**
+#### BB Test Design: Implemented	
+#### WB Test Design: Implemented	
+#### EP Test Code: Implemented	
+#### BVA Test Code: N/A	
+#### WB Testing: Implemented
+
+### **Module 5 (Category 2c):**
+#### BB Test Design: Implemented	
+#### WB Test Design: Implemented	
+#### EP Test Code: Implemented	
+#### BVA Test Code: N/A	
+#### WB Testing: Implemented
+
 The test code was implemented in such a way that all the modules were tested individually within the program, however when the program was run, all the outcomes were illustrated, rather than just one. Black box testing techniques were used for all modules, while white box techniques were used for module 1c and 1d. An example of how testing was done for Module 1 is shown below: 
 First, we imported the production code into the test code file so that the test code can run everything in the production code, otherwise we would have no way to test the production code. Print statements are using to clearly show what category is being tested, and what the task of the given module is. To make spaces between each line of the result, “\n” is used, enabling the result of the code to be neater and easily readable. The input that is present is clearly indicated, as well as the output that will be produced by running the code. This clearly shows what is being tested in each module. 
 
