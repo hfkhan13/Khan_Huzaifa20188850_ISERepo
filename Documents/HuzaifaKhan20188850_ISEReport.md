@@ -121,3 +121,35 @@ This code offers a lot of reusable code, with only minor differences with each l
 As shown in the checklist above, from the questions that have been derived, there was no refactoring needed to be done, and any issues that came up are shown and logged in the gitlog and version control. The code has been kept simple and concise to avoid any major issues from occurring, and hence no issues arose, and refactoring was not needed for this program.
 
 ## **Black-box Test Cases:**
+### **Module 1:**
+| Category                    |  Test Data             |  Expected Result
+| :---                        |    :----:              |              ---:
+| String is a valid string    | "Khan"                 |  KHAN
+| String is an invalid string | "Huzaifa Faisal Khan"  |  huzaifa faisal khan
+
+### **Module 2:**
+| Category                         |  Test Data             |  Expected Result
+| :---                             |    :----:              |              ---:
+| String contains a numeric value  | “I am 20 years old”    |  There are numeric values in this string
+| String contains no numeric value | "Pirates of Caribbean" |  There are no. numeric values in this string
+
+### **Module 3:**
+| Category                    |  Test Data             |  Expected Result
+| :---                        |    :----:              |              ---:
+| String is an invalid number | “2p67hello”            |  This is not a valid number
+| String is a valid number    | “8850”                 |  This is a valid number
+
+### **Module 4:**
+| Category                                               |  Test Data                  |  Expected Result
+| :---                                                   |    :----:                   |              ---:
+| String is a valid string and contains a numeric value  | “I am 20 twenty years old”  |  I AM TWENTY YEARS OLD
+| String is a valid string and contains a numeric value  | “I am 20 twenty years old”  |  i am twenty years old
+
+
+### **Module 5:**
+| Category                           |  Test Data             |  Expected Result
+| :---                               |    :----:              |              ---:
+| String converts hours to minutes   |    “hours*60”          |  60 hours is 3600 minutes            
+| String converts minutes to hours   |    “minutes/60”        |  60 minutes is 1 hour
+| String converts minutes to seconds |    “minutes*60”        |  60 minutes is 3600 seconds
+| String converts seconds to minutes |    “seconds/60”        |  60 seconds is 1 minute
