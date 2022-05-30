@@ -153,3 +153,49 @@ As shown in the checklist above, from the questions that have been derived, ther
 | String converts minutes to hours   |    “minutes/60”        |  60 minutes is 1 hour
 | String converts minutes to seconds |    “minutes*60”        |  60 minutes is 3600 seconds
 | String converts seconds to minutes |    “seconds/60”        |  60 seconds is 1 minute
+
+## **White-box Test Cases:**
+The two modules that white box testing will be implemented on are Module 2 (Category 1b) and Module 3 (Category 1c), as they both contain if and else statements.
+
+### **Module 2:**
+| Path                                                       |  Test Data              |  Expected Result
+| :---                                                       |    :----:               |              ---:
+| Enter “if” if character in string is a numeric value       | “I am 20 years old”     |  There are numeric values in this string
+| Enter “else” if character in string is not a numeric value | “I am twenty years old” |  There are no numeric values in this string
+
+### **Module 3:**
+| Path                                                       |  Test Data             |  Expected Result
+| :---                                                       |    :----:              |              ---:
+| Enter “if” if  character in string is a valid number       | “2p67hello”            |  This is not a valid number
+| Enter “else” if character in string is not a valid number  | “8850”                 |  This is a valid number
+
+This method of approach was used to test two of the modules in the program, both of which containing if and else statements, which means that either the outcome is “true” or “false”. This is because there are only two outcomes for the code to produce, and white box testing tests all the possible paths in the production. Since there were a only two paths to be take, a table was instructed for each module, indicating the path and what the expected result of the path should be when the test data is run through it. This makes implementing the test code less complicated and ensures efficiency and less errors to occur while coding.
+
+## **Test Implementation and Execution:**
+The test code was implemented in such a way that all the modules were tested individually within the program, however when the program was run, all the outcomes were illustrated, rather than just one. Black box testing techniques were used for all modules, while white box techniques were used for module 1c and 1d. An example of how testing was done for Module 1 is shown below: 
+First, we imported the production code into the test code file so that the test code can run everything in the production code, otherwise we would have no way to test the production code. Print statements are using to clearly show what category is being tested, and what the task of the given module is. To make spaces between each line of the result, “\n” is used, enabling the result of the code to be neater and easily readable. The input that is present is clearly indicated, as well as the output that will be produced by running the code. This clearly shows what is being tested in each module. 
+
+## **Version Control:**
+Git hub is used to log and commit any changes that were made to the report, the production code, and the test code. The changes are clearly labelled and give a brief description as to what changes are being made, with each change clearly shown in git hub.
+
+## **Ethics and Professionalism:**
+a)  Ethics and professionalism are a key part of any software engineering project, whether it be a small-scale university project, or a project being conducted by a large software developer company; ethics are vital. Using the code that has been designed and implemented, we can create scenarios as to how the code can be used for a much larger scale project, and hence what harmful effects can be caused if ethics and professionalism are not considered. For instance, we can take Module 3 (Category 1c) and implement it in a large-scale scenario. The module identifies whether a string contains a valid number or not. An online banking system might use this to identify whether the user has entered a valid number while they were making a payment. When the developers were writing the code, they forgot to write an “else” statement which illustrates that there is no valid number in the string, i.e. the inputted number has been written incorrectly. The system was implemented without this problem being fixed. This could cause many harmful effects to both the user of the system, the company the system was created for and the economy of the country. If the system can’t check whether the user has typed in a valid number, there is a risk that an incorrect amount of money could be paid. This would cause financial harm to the user, as they could be paying more money than they desired to. This could also raise questions to the corporation/individual receiving the money, as they could come under investigation as to why and how they got an abnormal amount of money deposited into their bank account. This could cause further problems such as being framed for something they have not done. Module 5 (Category 2d) performs the conversion of hours to minutes and vice versa. This can be upscaled and a scenario can be created where this code can be used. For instance, airports could use this method to display when flights will arrive and leave on the big screens. When designing the code, the formula for converting hours to minutes was written incorrectly, and this problem was not picked up while testing. This could cause confusion for passengers and pilots. If the time is not converted correctly, passengers and pilots would arrive at the airport either too late for the flight and/or too early. This would cause major disruption and could cause long delays at the airports. If the airport is a large international airport, this problem could cause aircraft to be grounded, which would cause airline companies and governments to incur financial losses, as the aviation and travel industry are one of the main sources of income for most countries around the world. 
+
+We have taken two modules from code and implemented them into real life scenarios to illustrate that if ethics and professionalism are not implemented throughout the course of the project, the effects can be harmful, physically, emotionally, and financially. Therefore, it is important to always follow guidelines and principles for your work to avoid causing harm to yourself and society. 
+
+
+b) Using ACS guidelines, we can identify ways to avoid the problems that have been stated above that could occur due to the lack of ethics and professionalism. The ACS have a list of 6 guidelines and values that an individual should uphold, that are as follows: 
+1.	The Primacy of Public Interest
+2.	The Enhancement of Quality of Life
+3.	Honesty
+4.	Competence
+5.	Professional Development
+6.	Professionalism
+
+Using this code of conduct, we can identify two suggestions as to how to avoid ethical problems. Firstly, is it important for the public to be of primary interest. Therefore, there should be numerous testing procedures and cross-examination models before the code can be implemented. Taking into our examples in part a, if correct, rigorous testing methods are implemented by not just the designers of the code, but also by their peers and other individuals, there would be little to no risk for the public to be harmed. Also, while designing the code, the people working on the code should have the public as their primary concern, so all the work they do should be looked through a lens of “would the public be harmed in any way by this piece of work. This can be enforced by the employer by making the employees sign an agreement that public intertest and safety is more important than any other personal and financial gain. This means that the workers need to be honest and competent with their work. 
+
+Another way to avoid the problems stated in part a is by ensuring that workers go through a background check before being employed and have some sort of academic testing done to make sure that they can complete tasks and projects in an adequate manner. This would make sure that the workers being hired are honest and would not risk their employment and ruining the company’s reputation for their own personal gain. Having honest, competent, and professional employees is integral for a workplace to thrive. If workers are employed just on the basis that they have the qualifications needed for the job, it would open the door to possible misbehaviour and ill-conduct if proper testing and interviews are not implemented to get to know the individual. This would also in hindsight cause public harm and there would be no professional development occurring in the workplace. 
+
+The problems that have been identified in the previous section can easily be removed/reduced if proper guidelines are used in the workplace. Using these guidelines is in the best interest of everyone involved, and would improve public opinion, employee satisfaction and the company’s reputation.
+
+## **Discussion:**
