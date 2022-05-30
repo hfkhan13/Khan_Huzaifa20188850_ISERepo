@@ -1,15 +1,18 @@
 from productioncode import *
 
 # Module 1 Category 1a)
-print("Testing Category 1 a) Converting string to upper case:\n")
-print("Test Data input: i am huzaifa")
-print("Output: " + convert_to_upper("i am huzaifa"))  
+print("Testing Category 1a) Converting string to upper case:\n")
+print("Test Data Input: Khan")
+print("Output: " + convert_to_upper("Khan"))  
 print("\n")
 
 # Test category 1a
-print(convert_to_lower("I Am Huzaifa")) 
+print("Testing Category 1a) Converting string to lower case:\n")
+print("Test Data Input: Huzaifa Faisal Khan")
+print("Output: " + convert_to_lower("Huzaifa Faisal Khan")) 
+print("\n")
 
-    
+ 
 contains_numeric("I am 20 years old") #test category 1b
 contains_numeric("I am twenty years old") #test category 1b
 
