@@ -235,3 +235,5 @@ Another way to avoid the problems stated in part a is by ensuring that workers g
 The problems that have been identified in the previous section can easily be removed/reduced if proper guidelines are used in the workplace. Using these guidelines is in the best interest of everyone involved, and would improve public opinion, employee satisfaction and the company’s reputation.
 
 ## **Discussion:**
+
+This report gives a detailed description on how to apply software engineering codes effectively, while using examples and code to further emphasise the implementation of these techniques. The quality of this work can be improved by better use of vocabulary, and a neater well-presented format. The code could also be a lot more in depth and could be made to a lot more different functions, rather than it being a very simple code. Testing could have been implemented more thoroughly and in a more efficient manner, and the test code also could’ve been much more thorough and in depth as compared to the one in this project. Overall, the report gives the reader a basic understanding and an insight into the world of software engineering, and all its marvels. 
