@@ -12,16 +12,25 @@ print("Test Data Input: Huzaifa Faisal Khan")
 print("Output: " + convert_to_lower("Huzaifa Faisal Khan")) 
 print("\n")
 
- 
-contains_numeric("I am 20 years old") #test category 1b
-contains_numeric("I am twenty years old") #test category 1b
+# Module 2 Category 1b)
+print("Testing Category 1b) Checking if string contains a numeric value:\n")
+print("Test Data Input: I am 20 years old")
+print("Output: ", end="")
+contains_numeric("I am 20 years old")
+print("\n")
+
+#Test Category 1b
+print("Testing Category 1b) Checking if string contains a numeric value:\n")
+print("Test Data Input: Pirates of the Caribbean")
+print("Output: ", end="")
+contains_numeric("Pirates of the Caribbean")
+print("\n")
 
 valid_number_checker("2p67hello")#  test category 1 c)
 valid_number_checker("2670") #  test category 1 c)
 
 
 print(remove_number_upper("I am 20 twenty years old"))#  test category 1 d)
-
 
 print(remove_number_lower("I am 20 twenty years old"))#  test category 1 d)
 
