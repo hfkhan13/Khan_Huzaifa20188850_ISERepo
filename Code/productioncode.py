@@ -87,10 +87,10 @@ def remove_number_lower(string):
     string = ''.join([i for i in string if not i.isdigit()])
     return string.lower()
 
-print(remove_number_upper("I am a 20 twenty years old"))#  test category 1 d)
+print(remove_number_upper("I am 20 twenty years old"))#  test category 1 d)
 
 
-print(remove_number_lower("I am a 20 twenty years old"))#  test category 1 d)
+print(remove_number_lower("I am 20 twenty years old"))#  test category 1 d)
 
 '''
 
