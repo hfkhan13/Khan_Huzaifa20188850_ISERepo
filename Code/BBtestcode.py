@@ -40,10 +40,16 @@ print("Output: ", end="")
 valid_number_checker("8850") 
 print("\n")
 
+# Module 4 Category 1d)
+print("Testing Category 1d) Removing numeric values from string and converting it to upper case")
+print("Test Data Input: I am 20 twenty years old")
+print("Output: " + remove_number_upper("I am 20 twenty years old"))
+print("\n")
 
-print(remove_number_upper("I am 20 twenty years old"))#  test category 1 d)
-
-print(remove_number_lower("I am 20 twenty years old"))#  test category 1 d)
+# Test Category 1d
+print("Testing Category 1d) Removing numeric values from string and converting it to upper case")
+print("Output: " + remove_number_lower("I am 20 twenty years old"))
+print("\n")
 
 
 print("60 hours is " + str(hours_to_minutes(60)) + " minutes")#  test category 2 c)
