@@ -41,23 +41,29 @@ valid_number_checker("8850")
 print("\n")
 
 # Module 4 Category 1d)
-print("Testing Category 1d) Removing numeric values from string and converting it to upper case")
+print("Testing Category 1d) Removing numeric values from string and converting it to upper case:\n")
 print("Test Data Input: I am 20 twenty years old")
 print("Output: " + remove_number_upper("I am 20 twenty years old"))
 print("\n")
 
 # Test Category 1d
-print("Testing Category 1d) Removing numeric values from string and converting it to upper case")
+print("Testing Category 1d) Removing numeric values from string and converting it to upper case:\n")
+print("Test Data Input: I am 20 twenty years old")
 print("Output: " + remove_number_lower("I am 20 twenty years old"))
 print("\n")
 
 
-print("60 hours is " + str(hours_to_minutes(60)) + " minutes")#  test category 2 c)
+# Module 5 Category 2c)
+print("Testing Category 2c) Converting string from hours to minutes and minutes to hours:\n")
+print("Test Data Input: hours*60")
+print("Test Data Input: minutes/60")
+print("Output: 60 hours is " + str(hours_to_minutes(60)) + " minutes")
+print("Output: 60 minutes is " + str(minutes_to_hours(60)) + " hours")
 
-print("60 minutes is " + str(minutes_to_hours(60)) + " hours")#  test category 2 c)
 
-
-print("60 minutes is " + str(minutes_to_seconds(60)) + " seconds")#  test category 2 c)
-
-
-print("60 seconds is " + str(seconds_to_minutes(60)) + " minutes")#  test category 2 c)
+# Test Category 2c
+print("Testing Category 2c) Converting string from minutes to seconds and seconds to minutes:\n")
+print("Test Data Input: minutes*60")
+print("Test Data Input: seconds/60")
+print("Output: 60 minutes is " + str(minutes_to_seconds(60)) + " seconds")
+print("Output: 60 seconds is " + str(seconds_to_minutes(60)) + " minutes")
