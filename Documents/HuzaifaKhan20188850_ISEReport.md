@@ -2,7 +2,7 @@
 # Huzaifa Khan 20188850
 # CURTIN UNIVERSITY SEMESTER ONE 2022
 # PRACTICAL CLASS: WEDNESDAY 10-12; 314.218
-
+#### (Images are not shown in md format but are shown in the pdf)
 ## **Introduction**
 The purpose of this report is to display and convey certain software engineering techniques and use these techniques to describe and implement code correctly. The code that will be used for this software program is Python. document gives a thorough explanation and description on how software engineering techniques were implemented. Each technique influences the other, and various testing techniques were also used to refine and correct the code. The skills that will be shown are as follows: converting a string into upper or lower case (category 1a), identifying whether numeric values are in a given string (category 1b), identify whether a given string is a valid number or not (category 1c), remove any numeric values in a given string and then convert the string to upper case or lower case (category 1d) and converting a number which represents a time given in hours to minutes and vice versa and time given in minutes to seconds and vice versa (category 2c). This document provides a description of the modules created, and touches on the modularity aspects that were applied in the code, as well as two types of testing techniques that were used (black box and white box testing) to implement the test code. Ethics and Professionalism is another key area that this report discusses and describes using the code designed in the report in a large-scale scenario, and what the lack of ethics and professionalism could lead to. 
 
@@ -66,7 +66,6 @@ Using the above module descriptions of the modules that have been designed, a pr
 The code that was implemented based off the module descriptions used the coding language python. For each module, the descriptions on how to run the code is given below.
 
 ## **Module 1:**
-
 The first line of the code “def convert_to_upper(string)” is used to define the string that is going to be used in the module. It defines what the method will be in the module, which to “convert_to_upper” and defines that for the string. The second line of the code allows the module to convert the string into all upper-case letters, by the function “upper()”, which is part of the intended task of the module. “The return string function” then parses the string through the module. After that, the print() function is used to convey that the task intended has been correctly implemented without any errors when the code is run, and the sentence in the string “i am huzaifa” returns as “I AM HUZAIFA” when the code is run. To convert a string to all lower-case letters, the exact same thing is implemented, however the method is changed from “convert_to_upper” to “convert_to_lower”, and the function “lower()” is used and parsed through the string. 
 
 ## **Module 2:**
