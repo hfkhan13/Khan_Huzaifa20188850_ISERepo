@@ -66,6 +66,7 @@ Using the above module descriptions of the modules that have been designed, a pr
 The code that was implemented based off the module descriptions used the coding language python. For each module, the descriptions on how to run the code is given below.
 
 ## **Module 1:**
+
 The first line of the code “def convert_to_upper(string)” is used to define the string that is going to be used in the module. It defines what the method will be in the module, which to “convert_to_upper” and defines that for the string. The second line of the code allows the module to convert the string into all upper-case letters, by the function “upper()”, which is part of the intended task of the module. “The return string function” then parses the string through the module. After that, the print() function is used to convey that the task intended has been correctly implemented without any errors when the code is run, and the sentence in the string “i am huzaifa” returns as “I AM HUZAIFA” when the code is run. To convert a string to all lower-case letters, the exact same thing is implemented, however the method is changed from “convert_to_upper” to “convert_to_lower”, and the function “lower()” is used and parsed through the string. 
 
 ## **Module 2:**
